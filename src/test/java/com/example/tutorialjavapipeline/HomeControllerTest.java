@@ -24,4 +24,9 @@ public class HomeControllerTest {
         assertEquals(homeController.getPeople().size(), 20);
     }
 
+    @Test
+    public void homeController_getAddresses_returnsListOf10Addresses() {
+        assertEquals(homeController.getAddresses().size(), 10);
+    }
+
 }
